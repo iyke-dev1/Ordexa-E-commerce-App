@@ -16,12 +16,12 @@ class MyTextTheme {
 
 
     bodyLarge: TextStyle().copyWith(fontSize: 14,fontWeight: FontWeight.w500,color: Colors.black),
-    bodyMedium: TextStyle().copyWith(fontSize: 14,fontWeight: FontWeight.normal,color: Colors.black),
-    bodySmall: TextStyle().copyWith(fontSize: 14,fontWeight: FontWeight.w500,color: Colors.black.withAlpha(30)),
+    bodyMedium: TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.black),
+    bodySmall: TextStyle().copyWith(fontSize: 10,fontWeight: FontWeight.w500,color: Colors.black.withAlpha(80)),
 
-    labelLarge: TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.white),
-    labelMedium:TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.white),
-    labelSmall:TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.white.withAlpha(30)),
+    labelLarge: TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.black),
+    labelMedium:TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.black),
+    labelSmall:TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.black.withAlpha(80)),
   );
 
 
@@ -33,17 +33,17 @@ class MyTextTheme {
     headlineSmall: TextStyle().copyWith(fontSize: 18,fontWeight: FontWeight.w600,color: Colors.white),
 
     titleLarge: TextStyle().copyWith(fontSize: 16,fontWeight: FontWeight.w600,color: Colors.white),
-    titleMedium: TextStyle().copyWith(fontSize: 16,fontWeight: FontWeight.w500,color: Colors.white),
-    titleSmall: TextStyle().copyWith(fontSize: 16,fontWeight: FontWeight.w400,color: Colors.white),
+    titleMedium: TextStyle().copyWith(fontSize: 14,fontWeight: FontWeight.w500,color: Colors.white),
+    titleSmall: TextStyle().copyWith(fontSize: 10,fontWeight: FontWeight.w400,color: Colors.white),
 
 
     bodyLarge: TextStyle().copyWith(fontSize: 14,fontWeight: FontWeight.w500,color: Colors.white),
-    bodyMedium: TextStyle().copyWith(fontSize: 14,fontWeight: FontWeight.normal,color: Colors.white),
-    bodySmall: TextStyle().copyWith(fontSize: 14,fontWeight: FontWeight.w500,color: Colors.white.withAlpha(30)),
+    bodyMedium: TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.white),
+    bodySmall: TextStyle().copyWith(fontSize: 10,fontWeight: FontWeight.w500,color: Colors.white.withAlpha(80)),
 
     labelLarge: TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.white),
     labelMedium:TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.white),
-    labelSmall:TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.white.withAlpha(30)),
+    labelSmall:TextStyle().copyWith(fontSize: 12,fontWeight: FontWeight.normal,color: Colors.white.withAlpha(80)),
 
   );
 }

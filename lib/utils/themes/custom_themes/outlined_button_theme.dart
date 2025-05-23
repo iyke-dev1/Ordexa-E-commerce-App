@@ -9,10 +9,10 @@ class MyOutlinedButtonTheme{
       style: OutlinedButton.styleFrom(
           elevation: 2,
           foregroundColor: Colors.black,
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.white,
           disabledForegroundColor: Colors.grey,
           disabledBackgroundColor: Colors.grey,
-          side: BorderSide(color: Colors.blue),
+          side: BorderSide(color: Colors.grey),
           padding: EdgeInsets.symmetric(vertical: 10),
           textStyle: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w600),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))
@@ -24,10 +24,10 @@ class MyOutlinedButtonTheme{
       style: OutlinedButton.styleFrom(
           elevation: 0,
           foregroundColor: Colors.white,
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.black,
           disabledForegroundColor: Colors.grey,
           disabledBackgroundColor: Colors.grey,
-          side: BorderSide(color: Colors.blue),
+          side: BorderSide(color: Colors.grey),
           padding: EdgeInsets.symmetric(vertical: 10),
           textStyle: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w600),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))
