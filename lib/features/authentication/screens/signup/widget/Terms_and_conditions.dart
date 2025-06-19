@@ -13,7 +13,7 @@ class MyTermsAndConditions extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = MyHelperFunctions.isDark(context);
+    final dark = MyHelperFunctions.isDarkMode(context);
     return Row(
       children: [
         SizedBox(

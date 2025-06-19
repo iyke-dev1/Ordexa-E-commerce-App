@@ -13,7 +13,7 @@ class OnboardingNextButton extends StatelessWidget  {
 
   @override
   Widget build(BuildContext context) {
-    final dark = MyHelperFunctions.isDark(context);
+    final dark = MyHelperFunctions.isDarkMode(context);
     return Positioned(
       right: MySizes.defaultSpace,
       bottom: MyDeviceUtils.getBottomNavigationBarHeight(),

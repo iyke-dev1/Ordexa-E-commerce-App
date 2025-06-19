@@ -11,7 +11,7 @@ class MyFormDivider extends StatelessWidget {
 final String dividerText;
   @override
   Widget build(BuildContext context) {
-    final dark  = MyHelperFunctions.isDark(context);
+    final dark  = MyHelperFunctions.isDarkMode(context);
     return Row(
       children: [
         Flexible(

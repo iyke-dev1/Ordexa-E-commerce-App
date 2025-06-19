@@ -14,7 +14,7 @@ class OnboardingDotNavigation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = OnboardingController.instance;
-    final dark  = MyHelperFunctions.isDark(context);
+    final dark  = MyHelperFunctions.isDarkMode(context);
     return Positioned(
         bottom: MyDeviceUtils.getBottomNavigationBarHeight() + 25,
         left: MySizes.defaultSpace,

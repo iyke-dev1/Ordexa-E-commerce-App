@@ -7,6 +7,7 @@ class MyTexts{
   static String submit = "Submit";
   static String appName = "T-Store";
   static String mContinue = "Continue";
+  static String done = "Done";
 
 
   // -- Onboarding Texts
@@ -20,7 +21,7 @@ class MyTexts{
 
   // -- Home
   static String homeAppBarTitle = "Good day for shopping.";
-  static String homeAppBarSubTitle = "Welcome";
+  static String homeAppBarSubTitle = "Iyke Eze";
 
   // -- Authentication form text
   static String firstName = "First Name";
@@ -49,13 +50,16 @@ class MyTexts{
   static String loginSubTitle = "Discover Limitless choices and Unmatched convenience.";
   static String signUpTitle = "Let's create your account.";
   static String forgetPasswordTitle = "Forgot Password";
-  static String forgetPasswordSebTitle = "Don't worry sometimes people can forget too, enter your password and we will send you a password reset link.";
-  static String changeYourPasswordTitle = "Password reset link sent.";
+  static String forgetPasswordSubTitle = "Don't worry sometimes people can forget too, enter your password and we will send you a password reset link.";
+  static String changeYourPasswordTitle = "Password Reset Email Sent.";
   static String changeYourPasswordSubTitle = "Your account security is our priority!, we've sent you a secure link to safely change your password and keep your account protected.";
   static String confirmEmail = "Verify Your email Address.";
   static String confirmEmailSubTitle = "Congratulations your account awaits: verify your email to start shopping and experience a world of unrivaled deals and personalised offer.";
   static String emailNotReceivedMessage = "Didn't get the email? check your junk/spam or resend it.";
-  static String yourAccountCreatedTitle = "your Account was successfully created.";
+  static String yourAccountCreatedTitle = "your Account was successfully created!";
   static String yourAccountCreatedSubTitle = "welcome to your ultimate shopping destination: Your account is created, unleash the joy of seamless online shopping.";
 
+  // // -- Home
+  // static String homeAppBarTitle = "Good Day for Shopping";
+  // static String homeAppBarSubTitle = "Iyke Eze";
 }

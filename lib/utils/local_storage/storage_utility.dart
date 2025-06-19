@@ -7,7 +7,7 @@ class MyLocalStorage{
     return _instance;
   }
 
-  MyLocalStorage._internal();
+  // MyLocalStorage._internal();
 
   final _storage = GetStorage();
 
