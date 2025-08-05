@@ -6,7 +6,7 @@ import '../../utils/constants/sizes.dart';
 class CircularImage extends StatelessWidget {
   const CircularImage({
     super.key,
-    this.fit = BoxFit.contain,
+    this.fit = BoxFit.cover,
     required this.image,
     this.isNetworkImage = false,
     this.overlayColor,
@@ -24,7 +24,6 @@ class CircularImage extends StatelessWidget {
   final double width, height, padding;
 
 
-
   @override
   Widget build(BuildContext context) {
     final dark = MyHelperFunctions.isDarkMode(context);
@@ -37,12 +36,14 @@ class CircularImage extends StatelessWidget {
         color: dark ? Colors.black : MyColor.white,
         borderRadius: BorderRadius.circular(100),
       ),
-      child: Center(
+
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(30),
         child: Image(
           fit: fit,
           image: isNetworkImage ? NetworkImage(image) : AssetImage(image) as ImageProvider,
-            color: overlayColor,
-          ),
+          color: overlayColor,
+        ),
       ),
     );
   }

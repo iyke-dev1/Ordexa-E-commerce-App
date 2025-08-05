@@ -2,11 +2,13 @@ import 'package:e_commerce_app/common/images/rounded_images.dart';
 import 'package:e_commerce_app/common/styles/shadows.dart';
 import 'package:e_commerce_app/common/widget/common_shapes/containers/circular_container.dart';
 import 'package:e_commerce_app/common/widget/products/product_cards/product_price_text.dart';
+import 'package:e_commerce_app/features/shop/screens/product_details/product_details.dart';
 import 'package:e_commerce_app/utils/constants/colors.dart';
 import 'package:e_commerce_app/utils/constants/image_strings.dart';
 import 'package:e_commerce_app/utils/constants/sizes.dart';
 import 'package:e_commerce_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import '../../icons/circular_icon.dart';
 import '../../texts/brand_title_text_with_verified_icon.dart';
@@ -21,7 +23,7 @@ class ProductsCardsVertical extends StatelessWidget {
 
     /// Container With Side Padding, Color, edges, radius and Shadow.
     return GestureDetector(
-      onTap: (){},
+      onTap: ()=> Get.to(()=> ProductDetails()),
       child: Container(
         width: 180,
         decoration: BoxDecoration(
@@ -47,22 +49,22 @@ class ProductsCardsVertical extends StatelessWidget {
                   /// -- sales tag
                   Positioned(
                     top: 12,
-                    child: MyCircularContainer(
-                      radius: MySizes.sm,
-                      backgroundColor: MyColor.secondary.withAlpha(200),
-                      child: Padding(
-                        padding: EdgeInsets.symmetric(
-                          horizontal: MySizes.sm,
-                          vertical: MySizes.xs,
-                        ),
-                        child: Text(
-                          '25%',
-                          style: Theme.of(
-                            context,
-                          ).textTheme.bodyLarge!.apply(color: MyColor.black),
+                      child: MyCircularContainer(
+                        radius: MySizes.sm,
+                        backgroundColor: MyColor.secondary.withAlpha(200),
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(
+                            horizontal: MySizes.sm,
+                            vertical: MySizes.xs,
+                          ),
+                          child: Text(
+                            '25%',
+                            style: Theme.of(
+                              context,
+                            ).textTheme.bodyLarge!.apply(color: MyColor.black),
+                          ),
                         ),
                       ),
-                    ),
                   ),
 
                   /// -- favourite icon button
@@ -93,6 +95,8 @@ class ProductsCardsVertical extends StatelessWidget {
 
 
             /// Add spacer() here to keep height of each box same in case 1 and 2 lines of heading
+            /// this usually happens when product title is in a single line or two lines (max)
+            /// use spacer() to utilize all the space to set the price and cart button at the buttom
             Spacer(),
 
             /// -- price Row

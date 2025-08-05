@@ -29,7 +29,7 @@ class CategoryTab extends StatelessWidget {
             MySectionHeading(title: 'You might like', showActionButton: true, onPressed: (){},),
             SizedBox(height: MySizes.spaceBetweenItems,),
       
-            GridLayout(itemCount: 4, itemBuilder: (_, index)=> ProductsCardsVertical())
+            MyGridLayout(itemCount: 4, itemBuilder: (_, index)=> ProductsCardsVertical())
           ],
         ),
       

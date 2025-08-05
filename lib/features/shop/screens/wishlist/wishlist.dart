@@ -25,7 +25,7 @@ class FavouriteScreen extends StatelessWidget {
         padding: EdgeInsets.all(MySizes.defaultSpace),
         child: Column(
             children: [
-              GridLayout(itemCount: 6, itemBuilder: (_, index)=> ProductsCardsVertical()),
+              MyGridLayout(itemCount: 6, itemBuilder: (_, index)=> ProductsCardsVertical()),
           ],
         ),),
       ),

@@ -2,8 +2,12 @@ import 'package:e_commerce_app/common/list_tiles/settings_menu_tile.dart';
 import 'package:e_commerce_app/common/widget/appBar/app_bar.dart';
 import 'package:e_commerce_app/common/widget/common_shapes/containers/primary_header_container.dart';
 import 'package:e_commerce_app/common/widget/texts/section_heading.dart';
+import 'package:e_commerce_app/features/personalisation/screens/address/address.dart';
+import 'package:e_commerce_app/features/personalisation/screens/profile/profile.dart';
+import 'package:e_commerce_app/features/shop/screens/order/order.dart';
 import 'package:e_commerce_app/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../common/list_tiles/user_profile_tile.dart';
@@ -37,7 +41,7 @@ class SettingsScreen extends StatelessWidget {
 
 
                   /// -- user Profile card
-                  UserProfileTile(),
+                  UserProfileTile(onPressed: ()=> Get.to(()=> Profile()),),
                   SizedBox(height: MySizes.spaceBtwSections,),
 
                 ],
@@ -60,7 +64,7 @@ class SettingsScreen extends StatelessWidget {
                     icon: Iconsax.safe_home,
                     title: 'My Address',
                     subtitle: 'set shopping delivery address',
-                    onTap: () {},
+                    onTap: ()=> Get.to( UserAddressScreen()),
                   ),
 
 
@@ -75,14 +79,14 @@ class SettingsScreen extends StatelessWidget {
                     icon: Iconsax.bag_tick,
                     title: 'My Orders',
                     subtitle: 'In-progress and Completed Orders',
-                    onTap: () {},
+                    onTap: () => Get.to(OrderScreen()),
                   ),
 
                   SettingsMenuTile(
                     icon: Iconsax.bank,
                     title: 'Banking Accounts',
                     subtitle: 'Withdraw balance to registered bank account',
-                    onTap: () {},
+                    onTap: (){},
                   ),
 
                   SettingsMenuTile(

@@ -3,11 +3,13 @@ import 'package:e_commerce_app/common/widget/common_shapes/containers/search_con
 import 'package:e_commerce_app/common/widget/layout/grid_layout.dart';
 import 'package:e_commerce_app/common/widget/products/carts/cart_menu_icon.dart';
 import 'package:e_commerce_app/common/widget/texts/section_heading.dart';
+import 'package:e_commerce_app/features/shop/screens/brands/all_brands.dart';
 import 'package:e_commerce_app/features/shop/screens/store/widget/category_tab.dart';
 import 'package:e_commerce_app/utils/constants/colors.dart';
 import 'package:e_commerce_app/utils/constants/sizes.dart';
 import 'package:e_commerce_app/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../../../common/widget/appBar/app_bar.dart';
 import '../../../../common/widget/products/product_cards/brandedCard.dart';
 
@@ -54,11 +56,11 @@ class StoreScreen extends StatelessWidget {
                       MySectionHeading(
                         title: 'Featured Brands',
                         showActionButton: true,
-                        onPressed: () {},
+                        onPressed: ()=> Get.to(()=> AllBrandsScreen()),
                       ),
                       SizedBox(height: MySizes.spaceBetweenItems / 2),
 
-                      GridLayout(
+                      MyGridLayout(
                         itemCount: 4,
                         mainAxisExtent: 80,
                         itemBuilder: (_, index) {

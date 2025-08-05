@@ -8,8 +8,8 @@ class MyHelperFunctions{
 
     if (value == "Green"){
       return Colors.green;
-    }else if (value == "Teal"){
-      return Colors.teal;
+    }else if (value == "Yellow"){
+      return Colors.yellow;
    }else if (value == "Red"){
       return Colors.red;
    }else if (value == "Blue"){

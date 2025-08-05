@@ -1,4 +1,6 @@
+import 'package:e_commerce_app/features/shop/screens/sub_category/sub_category.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../../../../common/widget/image_text_widgets/vertical_Image_text.dart';
 import '../../../../../utils/constants/image_strings.dart';
 
@@ -16,7 +18,7 @@ class HomeCategory extends StatelessWidget {
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,
         itemBuilder: (_, index) {
-          return VerticalImageText(image: MyImage.shoeIcon, title: 'shoes', onTap: (){},);
+          return VerticalImageText(image: MyImage.shoeIcon, title: 'shoes', onTap: ()=> Get.to(()=> SubCategoryScreen()),);
         },
       ),
     );

@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
      suffixIconColor: Colors.grey,
      constraints: BoxConstraints.expand(height: 60),
      labelStyle: TextStyle().copyWith(fontSize: 14, color: Colors.black),
-     hintStyle: TextStyle().copyWith(fontSize: 14, color: Colors.grey.withAlpha(60)),
+     hintStyle: TextStyle().copyWith(fontSize: 16, color: Colors.black.withAlpha(60)),
      errorStyle: TextStyle().copyWith(fontStyle: FontStyle.normal),
      floatingLabelStyle: TextStyle().copyWith(color: Colors.black),
      border: OutlineInputBorder().copyWith(

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../../utils/constants/sizes.dart';
 
-class GridLayout extends StatelessWidget {
-  const GridLayout({
+class MyGridLayout extends StatelessWidget {
+  const MyGridLayout({
     super.key,
     required this.itemCount,
     this.mainAxisExtent = 270,

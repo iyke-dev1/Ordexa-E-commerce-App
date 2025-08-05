@@ -1,4 +1,5 @@
 import 'package:e_commerce_app/common/widget/products/product_cards/products_cards_vertical.dart';
+import 'package:e_commerce_app/features/shop/screens/all_products/all_products.dart';
 import 'package:e_commerce_app/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:e_commerce_app/features/shop/screens/home/widgets/home_category.dart';
 import 'package:e_commerce_app/features/shop/screens/home/widgets/promo_slider.dart';
@@ -6,6 +7,7 @@ import 'package:e_commerce_app/utils/constants/colors.dart';
 import 'package:e_commerce_app/utils/constants/image_strings.dart';
 import 'package:e_commerce_app/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../../../../common/widget/common_shapes/containers/primary_header_container.dart';
 import '../../../../common/widget/common_shapes/containers/search_container.dart';
 import '../../../../common/widget/layout/grid_layout.dart';
@@ -73,11 +75,11 @@ class HomeScreen extends StatelessWidget {
                   SizedBox(height: MySizes.spaceBtwSections,),
 
                   /// -- Heading
-                  MySectionHeading(title: 'Popular Product', onPressed:  (){},),
+                  MySectionHeading(title: 'Popular Product', onPressed:  ()=> Get.to(()=> AllProducts()),),
                   SizedBox(height: MySizes.spaceBetweenItems),
 
                   /// -- popular Products
-                  GridLayout(itemCount: 4, itemBuilder: (_ , index) => ProductsCardsVertical(),)
+                  MyGridLayout(itemCount: 10, itemBuilder: (_ , index) => ProductsCardsVertical(),)
 
                 ],
               ),
