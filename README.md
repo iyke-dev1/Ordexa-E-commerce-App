@@ -1,26 +1,48 @@
 
-### 📄 `README.md`:
+---
+
+## 📌 3. E-commerce App – Mobile Shopping Platform
+
 ```markdown
-# 🛍️ E-Commerce Mobile App — Flutter Shopping Platform
+# 🛒 E-commerce Mobile App – Flutter Shopping Platform
 
-A responsive and fully functional **Flutter**-based e-commerce application enabling seamless product browsing, checkout, and order tracking.
+This is a complete Flutter-based mobile shopping app featuring user login, product browsing, shopping cart, payment integration, and order tracking.
 
-##  Features
+---
 
--  Product listing and discovery
--  Secure payment integration
--  User authentication
--  Order tracking
--  Smooth navigation & modern UI
+## 🚀 Features
 
-##  Screenshots
+- 🛍 Product catalog
+- 🔐 User authentication (Firebase or custom backend)
+- 🛒 Add to cart, checkout, order history
+- 💳 Payment gateway integration
+- 🧭 Smooth navigation and elegant UI
 
-<p float="left">
-<img src="assets/screenshots/ecom_1.png" width="250"/>
-<img src="assets/screenshots/ecom_2.png" width="250"/>
-</p>
+---
 
-##  Getting Started
+## 📸 Screenshots
+
+### Product Catalog  
+![Catalog](assets/catalog_screen.png)
+
+### Cart & Checkout  
+![Cart](assets/cart_screen.png)
+
+### Order Summary  
+![Order](assets/order_summary.png)
+
+---
+
+## 🛠️ Built With
+
+- **Flutter**
+- **Firebase/Auth**
+- **Stripe or Paystack Integration**
+- **Provider or GetX (state management)**
+
+---
+
+## 🧪 How to Run
 
 ```bash
 git clone https://github.com/iyke-dev1/ecommerce-app.git
