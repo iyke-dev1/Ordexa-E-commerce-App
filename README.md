@@ -1,16 +1,41 @@
-# e_commerce_app
+# 🛒 E-commerce Mobile App – Flutter Shopping Platform
 
-A new Flutter project.
+This is a complete Flutter-based mobile shopping app featuring user login, product browsing, shopping cart, payment integration, and order tracking.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🛍 Product catalog
+- 🔐 User authentication (Firebase or custom backend)
+- 🛒 Add to cart, checkout, order history
+- 💳 Payment gateway integration
+- 🧭 Smooth navigation and elegant UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+### Product Catalog  
+![Catalog](assets/catalog_screen.png)
+
+### Cart & Checkout  
+![Cart](assets/cart_screen.png)
+
+### Order Summary  
+![Order](assets/order_summary.png)
+
+
+## 🛠️ Built With
+
+- **Flutter**
+- **Firebase/Auth**
+- **Stripe or Paystack Integration**
+- **Provider or GetX (state management)**
+
+
+## 🧪 How to Run
+
+```bash
+git clone https://github.com/iyke-dev1/ecommerce-app.git
+cd ecommerce-app
+flutter pub get
+flutter run
