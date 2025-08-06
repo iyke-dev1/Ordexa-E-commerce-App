@@ -1,14 +1,8 @@
-
----
-
-## 📌 3. E-commerce App – Mobile Shopping Platform
-
 ```markdown
 # 🛒 E-commerce Mobile App – Flutter Shopping Platform
 
 This is a complete Flutter-based mobile shopping app featuring user login, product browsing, shopping cart, payment integration, and order tracking.
 
----
 
 ## 🚀 Features
 
@@ -18,7 +12,6 @@ This is a complete Flutter-based mobile shopping app featuring user login, produ
 - 💳 Payment gateway integration
 - 🧭 Smooth navigation and elegant UI
 
----
 
 ## 📸 Screenshots
 
@@ -31,7 +24,6 @@ This is a complete Flutter-based mobile shopping app featuring user login, produ
 ### Order Summary  
 ![Order](assets/order_summary.png)
 
----
 
 ## 🛠️ Built With
 
@@ -40,7 +32,6 @@ This is a complete Flutter-based mobile shopping app featuring user login, produ
 - **Stripe or Paystack Integration**
 - **Provider or GetX (state management)**
 
----
 
 ## 🧪 How to Run
 
