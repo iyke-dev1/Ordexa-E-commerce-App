@@ -17,13 +17,17 @@ dependencies:
   logger: ^2.5.0
   url_launcher: ^6.3.1
   intl: ^0.20.2
-  flutter_native_splash: ^2.3.10
+  lottie:
+  connectivity_plus:
+#  flutter_native_splash: ^2.3.10
   smooth_page_indicator: ^1.2.1
 
 
   # icons
   cupertino_icons: ^1.0.8
   iconsax: ^0.0.8
+  flutter_native_splash: ^2.4.0
+
 
 
   # state management
@@ -34,6 +38,11 @@ dependencies:
   readmore:
   carousel_slider:
   flutter_rating_bar:
+  firebase_core:
+  cloud_firestore:
+  firebase_auth:
+  firebase_storage: ^13.0.0
+
 
 
 
@@ -45,7 +54,7 @@ dev_dependencies:
     sdk: flutter
 
 
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
 
@@ -60,6 +69,7 @@ flutter:
      - assets/icons/categories/
      - assets/logos/
      - assets/fonts/
+     - assets/images/animations/
 
   # ----------LOCAL FONT ------------#
   fonts:

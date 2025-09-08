@@ -19,7 +19,7 @@ class MyImage{
 
   // -- signUp section
   static String verifyEmail = "assets/images/onboarding_images/verify_email.png";
-  static String success = "assets/images/onboarding_images/success.png";
+  static String success = "assets/images/animations/success.json";
   static String deliveredEmail = "assets/images/onboarding_images/delivered_email.png";
 
 

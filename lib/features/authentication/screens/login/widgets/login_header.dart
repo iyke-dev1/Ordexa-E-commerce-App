@@ -22,6 +22,8 @@ class MyLoginHeader extends StatelessWidget {
             dark ? MyImage.lightAppLogo : MyImage.darkAppLogo,
           ),
         ),
+
+
         Text(
           MyTexts.loginTitle,
           style: Theme.of(context).textTheme.headlineMedium,
